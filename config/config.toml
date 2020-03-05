@@ -1,0 +1,11 @@
+[mongo]
+    host="127.0.0.1"
+    port=27017
+    max_pool_size=20
+    min_pool_size=5
+    db_name = "aio_spider"
+[spider]
+    CONCURRENCY_NUM = 2 #并发数限制
+    MAX_RETRY_TIMES = 3 #错误重试最大次数
+    USE_PROXY = false #是否使用代理默认不用
+    TIME_INTERVAL = 0.1 #并发间隔时间0.1秒
