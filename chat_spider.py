@@ -3,7 +3,7 @@
 # @作者 : 陈祥安
 # @文件名 : chat_spider.py
 # @公众号: Python学习开发
-from crawler import Crawler, Response
+from common.crawler import Crawler, Response
 from contextvars import ContextVar
 import asyncio
 from dataclasses import dataclass
